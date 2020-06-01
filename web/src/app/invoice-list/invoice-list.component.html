@@ -1,0 +1,24 @@
+<ngx-datatable class="bootstrap ngx-datatable fixed-header hidden-footer"
+               columnMode="force"
+               headerHeight="40"
+               rowHeight="42"
+               footerHeight="53"
+               [limit]="10"
+               [rows]="invoices"
+>
+  <ngx-datatable-column name="Internal Id">
+    <ng-template ngx-datatable-cell-template let-row="row">{{ row.invoice_id }}</ng-template>
+  </ngx-datatable-column>
+
+  <ngx-datatable-column name="Amount">
+    <ng-template ngx-datatable-cell-template let-row="row">${{ row.amount }}</ng-template>
+  </ngx-datatable-column>
+
+  <ngx-datatable-column name="Due Date">
+    <ng-template ngx-datatable-cell-template let-row="row">{{ row.due_on | date: 'MM-dd-yyyy' }}</ng-template>
+  </ngx-datatable-column>
+
+  <ngx-datatable-column name="Sell Price">
+    <ng-template ngx-datatable-cell-template let-row="row">${{ row.sell_price }}</ng-template>
+  </ngx-datatable-column>
+</ngx-datatable>

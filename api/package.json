@@ -1,0 +1,26 @@
+{
+  "name": "benlamalem-soufiane-angular-test-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": {
+    "name": "Ben Lamalem Soufiane",
+    "email": "benlamalem.soufiane@gmail.com"
+  },
+  "dependencies": {
+    "@fast-csv/parse": "^4.3.0",
+    "body-parser": "^1.16.1",
+    "cors": "^2.8.5",
+    "express": "^4.14.1",
+    "fast-csv": "^4.3.0",
+    "multer": "^1.3.1",
+    "mysql": "^2.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}

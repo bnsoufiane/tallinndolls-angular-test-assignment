@@ -1,0 +1,6 @@
+<div class="mb-4 text-center">
+  <input #CSVFileInput accept=".csv" (change)="uploadCSV()" class="file-hidden" type="file"/>
+</div>
+
+<button class="btn btn-primary d-block mx-auto" type="button" [disabled]="!csvFile" (click)="upload()">Upload</button>
+
