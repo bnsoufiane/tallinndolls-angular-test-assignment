@@ -1,4 +1,4 @@
-# Soufiane Ben Lamalem Test assignment:
+# Tallinndolls Test assignment:
 
 ### Run the node.js app
 
