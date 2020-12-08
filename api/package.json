@@ -12,7 +12,7 @@
     "email": "benlamalem.soufiane@gmail.com"
   },
   "dependencies": {
-    "@fast-csv/parse": "^4.3.0",
+    "@fast-csv/parse": "^4.3.6",
     "body-parser": "^1.16.1",
     "cors": "^2.8.5",
     "express": "^4.14.1",
